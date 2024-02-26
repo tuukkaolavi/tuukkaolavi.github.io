@@ -1,0 +1,280 @@
+body {
+    font-family: sans-serif;
+    background-color: #a6b6a1;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.navigointi {
+  width: 100%;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #807d7d;
+  }
+  
+  .active {
+    background-color: #30412b;
+  }
+
+  .koulutus {
+
+    background-color: #a6b6a1;
+ 
+    
+  }
+
+  
+  h1 {
+    text-align: center;
+    font-family: sans-serif, monospace;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: -45px;
+    margin-top: -25px;
+    
+  }
+
+  img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -10px;
+    
+ }
+
+ .kuva {
+    padding-top: 40px;
+ }
+ div {
+    /*border: 1px;
+    border-color: black;
+    border-style: solid;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a6b6a1cc;
+    padding: 30px;
+
+   
+   }
+    
+   
+
+ 
+
+ 
+.content {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+.sosiaalinen {
+margin-top: 0px;
+text-align: center;
+}
+
+.media {
+    display: inline-block;
+    
+}
+
+
+
+
+hr{
+    height: 1px;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+
+
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+footer {
+    color: black;
+    background-color:#30412bc0;
+    padding: 0.5px;
+    margin-top: 15px;
+    font-size: small;
+   
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+@media screen and (max-width: 1239px) and (min-width: 750px) {
+
+  li {
+      float: left;
+      
+    }
+
+    .kuva {
+      float: left;
+     
+      padding-right: 0px;
+      padding-bottom: 80px;
+      margin-left: -150px;
+      margin-top: 110px;
+      margin-bottom: 110px;
+    }
+
+    footer {
+      position: bottom;
+      margin-top: 400px;
+      
+    }
+    .content {
+      
+     margin-top: 100px;
+     padding-bottom: 100px;
+     font-size: 18px;
+     padding-left: 300px;
+      
+     
+  }
+hr {
+position: sticky;
+
+}
+  .sosiaalinen {
+      margin-top: 150px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 200px;
+      }
+      
+      .media {
+          display: inline-block;
+          
+      }
+     
+      h1 {
+          margin-top: 40px;
+      }
+
+      .column {
+        float: left;
+        width: 40%;
+        
+       
+        
+      }
+     
+       /* Clear floats after the columns */
+       .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+     }
+
+
+
+@media screen and (min-width: 1240px) {
+
+    li {
+        float: left;
+        
+      }
+
+      .kuva {
+        float: left;
+      padding-bottom: 150px;
+        margin-right: -35px;
+        margin-top: 110px;
+        
+     
+      }
+
+      footer {
+        position: bottom;
+        margin-top: 400px;
+        
+      }
+      .content {
+        
+       width: 60%;
+       margin-top: 100px;
+       padding-bottom: 100px;
+       font-size: 20px;
+        
+       
+    }
+hr {
+  position: sticky;
+ 
+}
+    .sosiaalinen {
+        margin-top: 250px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+        .media {
+            display: inline-block;
+            
+        }
+       
+        h1 {
+            margin-top: 40px;
+        }
+
+        .column {
+          float: left;
+          width: 45%;
+        }
+       
+         /* Clear floats after the columns */
+         .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+       }
